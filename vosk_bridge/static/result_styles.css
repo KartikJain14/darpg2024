@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background-color: #f6f8fa;
+    color: #24292e;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.scrollable-block {
+    flex: 1;
+    overflow-y: scroll;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #e1e4e8;
+    padding: 20px;
+    height: calc(100vh - 20px - 60px);
+}
+
+.block-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Add some space between the header and the paragraph */
+}
+
+footer {
+    background-color: #fff;
+    color: #24292e;
+    text-align: center;
+    padding: 20px 10px;
+    border-top: 1px solid #e1e4e8;
+    font-size: 14px;
+    line-height: 1.6;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+}
+
+footer a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.action-btn {
+    padding: 8px 16px;
+    margin-left: 4px; /* Add a little space between buttons */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.copy-btn {
+    background-color: #2ea44f;
+    color: white;
+}
+
+.copy-btn:hover, .save-btn:hover {
+    opacity: 0.8;
+}
+
+.save-btn {
+    background-color: #0056b3;
+    color: white;
+}
