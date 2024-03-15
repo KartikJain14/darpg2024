@@ -1,6 +1,9 @@
-# Vox Bridge
+# [Vox Bridge](https://vox.preztyl.tech/)
 
-Vox Bridge is an innovative solution designed to bridge linguistic gaps with state-of-the-art voice recognition and translation technologies. This project leverages the power of the Vosk speech recognition model to offer high-quality, offline voice recognition in Hindi, with plans to expand to more languages in the future.
+Vox Bridge is an innovative solution designed to bridge linguistic gaps with state-of-the-art voice recognition and translation technologies. This project leverages the power of the Vosk speech recognition model to offer high-quality, offline voice recognition in Hindi, with plans to expand to more languages in the future. It is a truly opensource program and does not rely on any type of propietary software and requires no api keys to access any service.
+This project is offline compatible once all the files are downloaded and set up.
+
+### Visit and use the live demo at [https://vox.preztyl.tech/](https://vox.preztyl.tech/) 
 
 ## Features
 
