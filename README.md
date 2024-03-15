@@ -41,4 +41,15 @@ Visit webserver at [localhost](http://localhost:5000)
 
 Provide a hindi audio that is .mp3 and wait for 2 minutes and get the output text in hindi and english
 
+### Things to add:
+1. CLI support
+
+2. Unit Tests
+
+3. Better Documentations and presentations.
+
+4. Redesign UI for webapp.
+
+5. Reduce time for proccessing.
+
 ###### PS: Please contact me, this can be much well documented and can be a better project but due to errors at submission and lesser time frame available to me due to prior hsc examinations. If in case, more time (~48hrs) be provided, I will be able to provide proper documentation, setup scripts, optimise core, present it and give a video for the same. Please give a confirmation so that I resume work for vox bridge
