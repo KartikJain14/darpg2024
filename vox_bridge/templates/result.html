@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scrollable Blocks with Save Button</title>
+    <title>VoxBridge (DARPG-2024)</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='result_styles.css') }}">
 </head>
 <body>
@@ -13,7 +14,7 @@
                 <h2>Hindi Text</h2>
                 <div>
                     <button class="action-btn copy-btn" onclick="copyText('paragraph1')">Copy</button>
-                    <button class="action-btn save-btn" onclick="saveText('paragraph1', 'Block1.txt')">Save</button>
+                    <button class="action-btn save-btn" onclick="saveText('paragraph1', 'hindi_output.txt')">Save</button>
                 </div>
             </div>
             <p id="paragraph1">{{text_hi}}</p>
@@ -23,7 +24,7 @@
                 <h2>English Text</h2>
                 <div>
                     <button class="action-btn copy-btn" onclick="copyText('paragraph2')">Copy</button>
-                    <button class="action-btn save-btn" onclick="saveText('paragraph2', 'Block2.txt')">Save</button>
+                    <button class="action-btn save-btn" onclick="saveText('paragraph2', 'english_output.txt')">Save</button>
                 </div>
             </div>
             <p id="paragraph2">{{text_en}}</p>

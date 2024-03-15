@@ -54,3 +54,7 @@ if __name__ == "__main__":
     print("Extracting model...")
     extract_zip(local_filename, extract_to)
     print("Extraction complete.")
+    
+    # Delete the downloaded zip file
+    os.remove(local_filename)
+    print("Deleted downloaded zip file.")
