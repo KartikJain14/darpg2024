@@ -42,6 +42,11 @@ These instructions will get you a copy of the project up and running on your loc
     ```bash
     python wsgi.py
 
+4. **In case using a virtual environment**
+   ```bash
+   vox_bridge/utils/translate.py >> edit line no 10 to:
+    command = ["/path/to/venv/bin/python3", "/path/to/venv/bin/argos-translate", text , "--from-lang", "hi", "--to-lang", "en"]
+
 Visit webserver at [localhost](http://localhost:5000)
 
 Provide a hindi audio that is .mp3 and wait for 2 minutes and get the output text in hindi and english
