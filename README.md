@@ -33,6 +33,8 @@ These instructions will get you a copy of the project up and running on your loc
     ```bash
     #setup and activate venv already if required
     pip install -r requirements.txt
+    argospm update
+    argospm install translate-hi_en
     python model.py
     
 3. **Run web server**
