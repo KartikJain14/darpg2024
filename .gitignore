@@ -167,3 +167,4 @@ instance/
 *.sqlite
 model/
 outputs/
+data/
