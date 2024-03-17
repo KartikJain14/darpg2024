@@ -17,7 +17,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-- Unix based system (support for windows coming soon)
 - Python 3.6 or higher
 - pip and virtualenv
 
@@ -29,24 +28,19 @@ These instructions will get you a copy of the project up and running on your loc
    git clone https://github.com/KartikJain14/darpg2024.git
    cd darpg2024
 
+2. **Create virtual environment (optional)**
+
+    ```bash
+    python -m venv env
+    python activate.py env
+    #run the command that will be given as output
+    
 2. **Download and install dependencies and models**
 
     ```bash
-    #setup and activate venv already if required
     pip install -r requirements.txt
-    argospm update
-    argospm install translate-hi_en
     python model.py
     
-5. **In case using a virtual environment**
-   vox_bridge/utils/translate.py >> edit _command_ to:
-   ```bash
-   command = ["/path/to/venv/bin/python3", "/path/to/venv/bin/argos-translate", text, "--from-lang", "hi", "--to-lang", "en"]
-
-Example:
-
-    command = ["/home/user/darpg2024/venv/bin/python3","/home/user/darpg2024/venv/bin/argos-translate", text, "--from-lang", "hi", "--to-lang", "en"]
-
 4. **Run web server**
     
     ```bash
@@ -54,10 +48,10 @@ Example:
 
 Visit webserver at [localhost](http://localhost:5000)
 
-Provide a hindi audio that is .mp3 and wait for 2 minutes and get the output text in hindi and english
+Provides a hindi audio that is .mp3 and wait for 2 minutes and get the output text in hindi and english
 
 ### Things to add:
-1. Support Windows
+1. Multiple file support
 
 2. CLI support
 
