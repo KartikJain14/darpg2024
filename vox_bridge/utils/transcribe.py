@@ -1,8 +1,11 @@
 import sys
 import os
-from vosk import Model, KaldiRecognizer
+from vosk import Model, KaldiRecognizer, SetLogLevel
 import wave
 import json
+
+#Disable logging
+SetLogLevel(-1)
 
 def transcribe_audio(model_path, audio_path, output_text_path):
     # Check if model exists
