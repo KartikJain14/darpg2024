@@ -46,19 +46,19 @@ These instructions will get you a copy of the project up and running on your loc
     
     ```bash
     python wsgi.py
-    
+
+Visit webserver at [localhost](http://localhost:5000) **OR**:
+
 - **CLI Usage**
 	```bash
-	python vox_bridge.py translate "text in one language" -l [en/hi]
-	#-l en in this case because the given text is in english.
-	python vox_bridge.py transcribe -i "/path/to/audio.mp3" -l [en/hi/b]
-	#-i should be the path to an .MP3 ONLY -l (language you want output in, b=both en & hi)
-    python vox_bridge -h
-    #for more help.
+  python vox_bridge.py translate "text in one language" -l [en/hi]
+  #-l en in this case because the given text is in english.
+  python vox_bridge.py transcribe -i "/path/to/audio.mp3" -l [en/hi/b]
+  #-i should be the path to an .MP3 ONLY -l (language you want output in, b=both en & hi)
+  python vox_bridge.py -h
+  #for more help.
 
-Visit webserver at [localhost](http://localhost:5000)
-
-Provides a hindi audio that is .mp3 and wait for 2 minutes and get the output text in hindi and english
+Provide a hindi audio that is .mp3 and wait for 2 minutes and get the output text in hindi and english
 
 ### Things to add:
 1. Make global package.
