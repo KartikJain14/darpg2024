@@ -40,7 +40,7 @@ These instructions will get you a copy of the project up and running on your loc
 
     ```bash
     pip install -r requirements.txt
-    python vosk_bridge.py initialize
+    python vox_bridge.py initialize
     
 4. **Run web server**
     
