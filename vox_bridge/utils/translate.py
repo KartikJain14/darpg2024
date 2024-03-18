@@ -18,3 +18,24 @@ def translate_text(hi_text, en_text):
     en_content = translate.translate(hi_content, from_code, to_code)
     with open(en_text, "w", encoding="utf-8") as file:
         file.write(en_content)
+
+def translate_cli(input_text, from_code="hi", to_code="en"):
+    package.update_package_index()
+    available_packages = package.get_available_packages()
+    package_to_install = next(
+        filter(
+            lambda x: x.from_code == from_code and x.to_code == to_code, available_packages
+        )
+    )
+    package.install_from_path(package_to_install.download())
+    return translate.translate(input_text, from_code, to_code)
+
+def download_model():
+    package.update_package_index()
+    available_packages = package.get_available_packages()
+    package_to_install = next(
+        filter(
+            lambda x: x.from_code == from_code and x.to_code == to_code, available_packages
+        )
+    )
+    package.install_from_path(package_to_install.download())

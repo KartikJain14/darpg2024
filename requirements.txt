@@ -1,5 +1,5 @@
-Flask
-Flask-Cors
+flask
+flask-cors
 ffmpeg-python
 requests
 vosk
